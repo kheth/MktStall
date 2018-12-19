@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="InputDirectoryLabel" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="PythonExecutableLabel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="OutputDirectoryLabel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="TemporaryDirectoryLabel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="ResourcesDirectoryLabel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="MktStallPathLabel" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="MaxThreadsLabel" max="32767" attributes="0"/>
+                              <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="MktStallPathTextField" min="-2" pref="444" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="MktStallPathButton" min="-2" pref="20" max="-2" attributes="0"/>
+                              <EmptySpace pref="21" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="PythonExecutableTextField" min="-2" pref="444" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="PythonExecutableButton" min="-2" pref="20" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="ResourcesDirectoryTextField" min="-2" pref="444" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="ResourcesDirectoryButton" min="-2" pref="20" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="TemporaryDirectoryTextField" min="-2" pref="444" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="TemporaryDirectoryButton" min="-2" pref="20" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="OutputDirectoryTextField" min="-2" pref="444" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="OutputDirectoryButton" min="-2" pref="20" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="label1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="126" max="-2" attributes="0"/>
+                                      <Component id="OKButton" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="CancelButton" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="89" max="-2" attributes="0"/>
+                                      <Component id="button1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="InputDirectoryTextField" min="-2" pref="444" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="InputDirectoryButton" min="-2" pref="20" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="MaxThreadsSpinner" alignment="0" min="-2" pref="444" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="label2" min="-2" pref="416" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="ImageDirectoryTextField" min="-2" pref="444" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="ImageDirectoryButton" min="-2" pref="20" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="holdingDirPathTextField" min="-2" pref="444" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="HoldingDirectoryButton" min="-2" pref="20" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="label2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="ImageDirectoryButton" pref="0" max="32767" attributes="0"/>
+                  <Component id="ImageDirectoryTextField" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+              <Component id="label1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="HoldingDirectoryButton" pref="0" max="32767" attributes="0"/>
+                  <Component id="holdingDirPathTextField" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+              <Component id="InputDirectoryLabel" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="InputDirectoryButton" pref="0" max="32767" attributes="0"/>
+                  <Component id="InputDirectoryTextField" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="OutputDirectoryLabel" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="OutputDirectoryButton" alignment="0" pref="0" max="32767" attributes="0"/>
+                  <Component id="OutputDirectoryTextField" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="TemporaryDirectoryLabel" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="TemporaryDirectoryButton" alignment="0" pref="0" max="32767" attributes="0"/>
+                  <Component id="TemporaryDirectoryTextField" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+              <Component id="ResourcesDirectoryLabel" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="ResourcesDirectoryButton" alignment="0" pref="0" max="32767" attributes="0"/>
+                  <Component id="ResourcesDirectoryTextField" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="PythonExecutableLabel" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="PythonExecutableButton" alignment="0" pref="0" max="32767" attributes="0"/>
+                  <Component id="PythonExecutableTextField" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="MktStallPathLabel" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="MktStallPathButton" alignment="0" pref="0" max="32767" attributes="0"/>
+                  <Component id="MktStallPathTextField" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="MaxThreadsLabel" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+              <Component id="MaxThreadsSpinner" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="OKButton" min="-2" max="-2" attributes="0"/>
+                  <Component id="CancelButton" min="-2" max="-2" attributes="0"/>
+                  <Component id="button1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="java.awt.Label" name="InputDirectoryLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Input Directory - path to inputs to mktstall_py"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="InputDirectoryTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="InputDirectoryTextFieldActionPerformed"/>
+        <EventHandler event="textValueChanged" listener="java.awt.event.TextListener" parameters="java.awt.event.TextEvent" handler="InputDirectoryTextFieldTextValueChanged"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.Button" name="InputDirectoryButton">
+      <Properties>
+        <Property name="label" type="java.lang.String" value="..."/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="InputDirectoryButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.Label" name="OutputDirectoryLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Output Directory - path to results"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="OutputDirectoryTextField">
+      <Events>
+        <EventHandler event="textValueChanged" listener="java.awt.event.TextListener" parameters="java.awt.event.TextEvent" handler="OutputDirectoryTextFieldTextValueChanged"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.Button" name="OutputDirectoryButton">
+      <Properties>
+        <Property name="label" type="java.lang.String" value="..."/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="OutputDirectoryButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.Label" name="TemporaryDirectoryLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Temporary Directory - path to intermediate files"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="TemporaryDirectoryTextField">
+      <Events>
+        <EventHandler event="textValueChanged" listener="java.awt.event.TextListener" parameters="java.awt.event.TextEvent" handler="TemporaryDirectoryTextFieldTextValueChanged"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.Button" name="TemporaryDirectoryButton">
+      <Properties>
+        <Property name="label" type="java.lang.String" value="..."/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TemporaryDirectoryButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.Label" name="ResourcesDirectoryLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Resources Directory - path to MktStall resources"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="ResourcesDirectoryTextField">
+      <Events>
+        <EventHandler event="textValueChanged" listener="java.awt.event.TextListener" parameters="java.awt.event.TextEvent" handler="ResourcesDirectoryTextFieldTextValueChanged"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.Button" name="ResourcesDirectoryButton">
+      <Properties>
+        <Property name="label" type="java.lang.String" value="..."/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ResourcesDirectoryButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.Label" name="PythonExecutableLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Python Executable - path to Python"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="PythonExecutableTextField">
+      <Events>
+        <EventHandler event="textValueChanged" listener="java.awt.event.TextListener" parameters="java.awt.event.TextEvent" handler="PythonExecutableTextFieldTextValueChanged"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.Button" name="PythonExecutableButton">
+      <Properties>
+        <Property name="label" type="java.lang.String" value="..."/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PythonExecutableButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.Label" name="MktStallPathLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="MktStall path - path to mktstall.py"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="MktStallPathTextField">
+      <Events>
+        <EventHandler event="textValueChanged" listener="java.awt.event.TextListener" parameters="java.awt.event.TextEvent" handler="MktStallPathTextFieldTextValueChanged"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.Button" name="MktStallPathButton">
+      <Properties>
+        <Property name="label" type="java.lang.String" value="..."/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MktStallPathButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.Label" name="MaxThreadsLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Maximum number of threads"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Button" name="OKButton">
+      <Properties>
+        <Property name="label" type="java.lang.String" value="OK"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="OKButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.Button" name="CancelButton">
+      <Properties>
+        <Property name="label" type="java.lang.String" value="Cancel"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CancelButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="MaxThreadsSpinner">
+      <Properties>
+        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+          <SpinnerModel initial="1" minimum="1" numberType="java.lang.Integer" stepSize="1" type="number"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Button" name="button1">
+      <Properties>
+        <Property name="label" type="java.lang.String" value="Defaults"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.TextField" name="holdingDirPathTextField">
+    </Component>
+    <Component class="java.awt.Label" name="label1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Holding Directory - path to empty holding directory"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="ImageDirectoryTextField">
+    </Component>
+    <Component class="java.awt.Label" name="label2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Image Directory - path to directory containing images"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Button" name="HoldingDirectoryButton">
+      <Properties>
+        <Property name="label" type="java.lang.String" value="..."/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="HoldingDirectoryButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.Button" name="ImageDirectoryButton">
+      <Properties>
+        <Property name="label" type="java.lang.String" value="..."/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ImageDirectoryButtonActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
